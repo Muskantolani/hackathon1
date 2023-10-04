@@ -1,0 +1,49 @@
+.contact{
+    color: #000000;
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    margin-left: 74%;
+    background: #F6F7FC;
+    backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Space evenly between content and logout button */
+}
+.sidebar-content {
+    width: 100%;
+    text-align: center;
+  }
+  .name-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adjust the gap between cards as needed */
+  }
+  
+  .name-card {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center; /* Center content vertically within the card */
+    background-color: #ffffff;
+    border: 1px solid #ede9e9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    /* Additional styles for the name cards */
+  }
+  .name-card img {
+    width: 18px; /* Adjust the width and height as needed for your icons */
+    height: 18px;
+    margin-right: 10px; /* Add space between the icon and name */
+  }
+  
+  .name-card:hover {
+    background-color: #f9f6f6; /* Change the background color on hover */
+  }
