@@ -1,0 +1,38 @@
+.middle{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-container {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column; /* Display cards one below each other */
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 350px;
+    background-color: #F6F7FC;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover for a 3D effect */
+  }
+  
+  .card-inner {
+    text-align: center;
+  }
+  .header{
+    margin-top: 0%;
+    margin-left: 16%;
+  }
